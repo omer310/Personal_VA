@@ -16,7 +16,7 @@ This repository contains a Python script that transcribes audio files and genera
 
 Before running the script, ensure you have the necessary libraries installed. You can install them using pip:
 
-```bash
+```
 pip install openai elevenlabs pydub gradio
 ```
 
@@ -34,7 +34,7 @@ ELEVEN_LABS_API_KEY = "YOUR_ELEVEN_LABS_API_KEY"
 
 To use the script, run the following command:
 
-```bash
+```
 python script_name.py
 ```
 
