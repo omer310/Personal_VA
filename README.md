@@ -46,11 +46,3 @@ After launching, upload an audio file or record your audio via the Gradio interf
 ## License
 
 This project is available under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- OpenAI for the Whisper and GPT-3.5 models.
-- Eleven Labs for their text-to-speech technology.
-- PyDub for handling audio file operations.
-- Gradio for providing the interactive interface.
-```
