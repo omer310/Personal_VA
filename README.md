@@ -1,7 +1,6 @@
-```
-# Audio Transcription and Response Generator
+# Personal voice assasstiant
 
-This repository hosts a Personal voice assistant that transcribes audio files and generates responses. It leverages OpenAI's GPT-3.5 model for generating text and Eleven Labs' API for text-to-speech conversion. The script includes a Gradio interface, providing a user-friendly platform for audio file uploads and response visualization.
+This repository hosts a personal voice assistant that transcribes audio files and generates responses. You can give it a personality and a cloned voice. It leverages OpenAI's GPT-3.5 model for generating text and Eleven Labs' API for text-to-speech conversion. The script includes a Gradio interface, providing a user-friendly platform for audio file uploads and response visualization.
 
 ## Features
 
@@ -25,25 +24,25 @@ This repository hosts a Personal voice assistant that transcribes audio files an
 
 First, ensure the necessary libraries are installed:
 
-\```bash
+```sh
 pip install openai elevenlabs pydub gradio
-\```
+```
 
 Configure your API keys in `config.py`:
 
-\```python
+```python
 # config.py
 OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
 ELEVEN_LABS_API_KEY = "YOUR_ELEVEN_LABS_API_KEY"
-\```
+```
 
 To run the script:
 
-\```bash
+```sh
 python script_name.py
-\```
+```
 
-After launching, upload an audio file via the Gradio interface to receive the transcribed and generated response.
+After launching, upload an audio file or record your audio via the Gradio interface to receive the transcribed and generated response.
 
 ## License
 
