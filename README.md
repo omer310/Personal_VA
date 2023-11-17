@@ -25,15 +25,14 @@ This repository hosts a personal voice assistant that transcribes audio files an
 First, ensure the necessary libraries are installed:
 
 ```sh
-pip install openai elevenlabs pydub gradio
+pip install requirements.txt
 ```
 
-Configure your API keys in `config.py`:
+Configure your API key in `config.py`:
 
 ```python
 # config.py
 OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
-ELEVEN_LABS_API_KEY = "YOUR_ELEVEN_LABS_API_KEY"
 ```
 
 To run the script:
